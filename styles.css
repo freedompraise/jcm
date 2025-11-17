@@ -60,6 +60,8 @@ body {
 
 .description a {
   text-decoration: none;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 .description a:hover {
@@ -354,6 +356,13 @@ select.error {
 
   .btn {
     width: 100%;
+  }
+
+  .description a {
+    display: block;
+    padding: 10px 0;
+    word-break: break-all;
+    overflow-wrap: break-word;
   }
 
   .progress-indicator {

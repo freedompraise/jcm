@@ -491,7 +491,7 @@ function createCaregiverSection(cgNumber) {
         <div class="form-group">
             <label>Upload ${isFirst ? 'First' : 'Second'} CG Picture (A clear headshot Picture of CG)</label>
             <div class="file-upload">
-                <input type="file" name="cg${cgNumber}Picture" accept="image/*">
+                <input type="file" id="cg${cgNumber}Picture" name="cg${cgNumber}Picture" accept="image/*">
                 <label for="cg${cgNumber}Picture" class="file-upload-label">
                     <span class="upload-icon">📁</span>
                     <span>Drag & Drop Files, <span>Choose Files to Upload</span></span>
